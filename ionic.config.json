@@ -1,0 +1,7 @@
+{
+  "name": "PaginaSandra",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

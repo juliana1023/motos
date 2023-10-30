@@ -1,0 +1,20 @@
+<ion-header style="text-align:center">
+  <ion-toolbar color="primary">
+    <ion-title> Registrate 👧 </ion-title>
+
+  </ion-toolbar>
+</ion-header>
+
+<ion-content color="dark">
+  <ion-item>
+    <ion-label position="floating" style="text-align:center"> Email 📧 </ion-label>
+    <ion-input type="email" [(ngModel)]="user.Email" aria-required></ion-input>
+  </ion-item> 
+
+  <ion-item>
+    <ion-label position="floating" style="text-align:center" color="dark"> Contraseña ⛔</ion-label>
+    <ion-input type="password" [(ngModel)]="user.password" aria-required></ion-input>
+  </ion-item>
+  <ion-button class="ion-padding" color="success" expand="full" (click)="registro(user)" >Registrar 👧</ion-button>
+</ion-content>
+
